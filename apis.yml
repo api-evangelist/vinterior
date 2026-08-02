@@ -1,9 +1,25 @@
 aid: vinterior
 name: Vinterior
-description: 'Vinterior is a company surfaced as a portfolio company of seedcamp and added to the API
-  Evangelist network as a stub for enrichment. Sector: marketplace. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Vinterior is a UK-based curated online marketplace for vintage, antique, and pre-owned
+  furniture and homeware. It connects independent sellers, dealers, and restorers with buyers looking for
+  one-of-a-kind pieces, positioning itself as a more sustainable alternative to mass-produced furniture.
+  The platform handles product discovery, listings, seller storefronts, checkout, and delivery for
+  design-led vintage goods. Vinterior is backed by Seedcamp. As of this profile Vinterior does not publish
+  a public developer program, API reference, or machine-readable API surface; this record is maintained in
+  the API Evangelist network as a company profile and enrichment lead.'
 url: https://raw.githubusercontent.com/api-evangelist/vinterior/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.vinterior.co/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +28,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
 - Marketplace
+- Furniture
+- Vintage
+- Antiques
+- Ecommerce
+- Home
+- Interior Design
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,9 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vinterior-domain-security.yml
 - type: Website
+  url: https://www.vinterior.co/
+- type: InvestorProfile
   url: https://seedcamp.com/company/vinterior/
