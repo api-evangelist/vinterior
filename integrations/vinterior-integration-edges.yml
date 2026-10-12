@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/vinterior/integrations
+- https://n8n.io/integrations/vinterior/
+- https://composio.dev/toolkits/vinterior
+- https://monid.ai/tools/vinterior
+checked:
+- https://composio.dev/toolkits/vinterior
+- https://monid.ai/tools/vinterior
+- https://n8n.io/integrations/vinterior/
+- https://zapier.com/apps/vinterior/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
